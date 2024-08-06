@@ -18,12 +18,12 @@ int main() {
 // cout << friends[8] << endl;
 // cout << friends[9] << endl;
 
-// more efficient way by using for loop
-    string friends[] = {"Alan", "Bob", "Carol", "David", "Ellen", 
-                    "Fred", "Grace", "Henry", "Ian", "Jen"};
+//more efficient way by using for loop
+//     string friends[] = {"Alan", "Bob", "Carol", "David", "Ellen", 
+//                     "Fred", "Grace", "Henry", "Ian", "Jen"};
 
-for (int i = 0; i < 10; i++) {
-  cout << friends[i] << endl;
+// for (int i = 0; i < 10; i++) {
+//   cout << friends[i] << endl;
 
 
 // cancels multiplication and displays actual string size, sizeOf by itself 
@@ -34,6 +34,6 @@ string friends[] = {"Alan", "Bob", "Carol", "David", "Ellen",
 
 cout << sizeof(friends) / sizeof(friends[0]) << endl;
 
-  return 0;
-}
+
+return 0;
 }
